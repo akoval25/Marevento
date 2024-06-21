@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.249fc6e6.css",
-    "main.js": "/static/js/main.bdfc3a7e.js",
-    "static/js/453.874d1084.chunk.js": "/static/js/453.874d1084.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.249fc6e6.css.map": "/static/css/main.249fc6e6.css.map",
-    "main.bdfc3a7e.js.map": "/static/js/main.bdfc3a7e.js.map",
-    "453.874d1084.chunk.js.map": "/static/js/453.874d1084.chunk.js.map"
+    "main.css": "/Marevento/static/css/main.249fc6e6.css",
+    "main.js": "/Marevento/static/js/main.a0233b1f.js",
+    "static/js/453.874d1084.chunk.js": "/Marevento/static/js/453.874d1084.chunk.js",
+    "static/media/logo.svg": "/Marevento/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Marevento/index.html",
+    "main.249fc6e6.css.map": "/Marevento/static/css/main.249fc6e6.css.map",
+    "main.a0233b1f.js.map": "/Marevento/static/js/main.a0233b1f.js.map",
+    "453.874d1084.chunk.js.map": "/Marevento/static/js/453.874d1084.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.249fc6e6.css",
-    "static/js/main.bdfc3a7e.js"
+    "static/js/main.a0233b1f.js"
   ]
 }
