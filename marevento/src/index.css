@@ -469,6 +469,7 @@ h2, .bebas {
 
 .bebas{
   font-size: 36px;
+  color: #fff;
 }
 
 .menu__btn {
@@ -479,13 +480,13 @@ h2, .bebas {
   border: none;
   z-index: 10;
   cursor: pointer;
-  color: #de6b6b;
+  color: #fff;
 }
 .burger {
   display: block;
   height: 4px;
   width: 100%;
-  background-color: #de6b6b;
+  background-color: #fff;
   transition: all 0.5s;
 }
 .menu__btn::before,
@@ -496,7 +497,7 @@ h2, .bebas {
   transition: all 0.5s;
   left: 0;
   right: 0;
-  background-color: #de6b6b;
+  background-color: #fff;
 }
 .menu__btn::before {
   top: 0;
@@ -524,4 +525,10 @@ h2, .bebas {
 .header__inner{
   padding: 50px 0px;
   text-align: center;
+}
+
+.header__inner p{
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #655346;
 }
