@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Marevento/static/css/main.048e9403.css",
+    "main.css": "/Marevento/static/css/main.a01ecf58.css",
     "main.js": "/Marevento/static/js/main.2ad46553.js",
     "static/js/453.874d1084.chunk.js": "/Marevento/static/js/453.874d1084.chunk.js",
     "static/media/hero_bg.png": "/Marevento/static/media/hero_bg.81e021d0187981298aaf.png",
     "static/media/logo-dark.svg": "/Marevento/static/media/logo-dark.05945d5bb0113f0f4adbbd9b329bae1b.svg",
     "index.html": "/Marevento/index.html",
-    "main.048e9403.css.map": "/Marevento/static/css/main.048e9403.css.map",
+    "main.a01ecf58.css.map": "/Marevento/static/css/main.a01ecf58.css.map",
     "main.2ad46553.js.map": "/Marevento/static/js/main.2ad46553.js.map",
     "453.874d1084.chunk.js.map": "/Marevento/static/js/453.874d1084.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.048e9403.css",
+    "static/css/main.a01ecf58.css",
     "static/js/main.2ad46553.js"
   ]
 }
