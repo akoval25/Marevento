@@ -434,12 +434,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.1;
+  overflow: hidden;
 }
 
 h1{
   color: #443226;
   font-size: 128px;
   margin-bottom: 9px;
+  text-shadow: 0px 0px 20px rgba(0,0,0,0.3);
 }
 
 h2, .bebas {
@@ -451,6 +453,16 @@ h2, .bebas {
   width: 100%;
   padding: 0px min(20px, 4%);
   margin: 0 auto;
+}
+
+.btn{
+  padding: 12px 34px;
+  font-size: 24px;
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
 }
 
 
@@ -487,14 +499,14 @@ h2, .bebas {
   height: 4px;
   width: 100%;
   background-color: #fff;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .menu__btn::before,
 .menu__btn::after {
   content: "";
   position: absolute;
   height: 4px;
-  transition: all 0.5s;
+  transition: all 0.3s;
   left: 0;
   right: 0;
   background-color: #fff;
@@ -506,9 +518,65 @@ h2, .bebas {
   bottom: 0;
 }
 
+.menu__btn.menu__btn--active .burger{
+  background-color: transparent;
+}
+
+.menu__btn.menu__btn--active{
+  padding: 0px;
+}
+
+.menu__btn.menu__btn--active::before{
+  transform: rotate(45deg);
+}
+
+.menu__btn.menu__btn--active::after{
+  transform: rotate(-45deg);
+}
+
+
+
 .menu{
   position: absolute;
-  display: none;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 0, 0, 0.315);
+  width: 100%;
+  height: 100%;
+  transform: translateX(100%);
+  transition: all 0.3s;
+}
+
+.menu.menu--active{
+  transform: translateX(0);
+}
+
+.menu__list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+  margin-top: 100px;
+  margin-right: calc(((100% - 1440px)/2) + min(20px, 4%));
+}
+
+@media (max-width: 1440px){
+  .menu__list{
+    margin-right: min(20px, 4%);
+  }
+}
+
+.menu__item{
+  
+}
+.menu__link{
+  padding: 12px 0px 12px 34px;
+  font-size: 24px;
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
 }
 
 /* MENU END */
@@ -531,4 +599,8 @@ h2, .bebas {
   font-size: 36px;
   margin-bottom: 40px;
   color: #655346;
+}
+
+.header__inner--logo{
+  margin-bottom: 100px;
 }
