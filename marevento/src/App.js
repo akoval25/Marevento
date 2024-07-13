@@ -74,7 +74,7 @@ function App() {
       <div className="wrapper">
         <header className="header">
           <div className="bg-img">
-            <div className="container">
+            
               <nav className={`menu ${menuActive ? "menu--active" : ""}`}>
                 <ul className="menu__list">
                   <li className="menu__item">
@@ -126,7 +126,7 @@ function App() {
                 <div className="header__inner--btn">
                   <a className="btn">See more</a>
                 </div>
-              </div>
+              
             </div>
           </div>
         </header>

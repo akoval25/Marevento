@@ -427,6 +427,7 @@ template {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 0px; /* need to change */
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -485,7 +486,7 @@ img {
   top: 20px;
   right: calc((100% - 1400px) / 2);
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 20px;
   max-width: min-content;
 }
@@ -496,9 +497,10 @@ img {
   }
 }
 
-.bebas {
+.menu__btn-wrapper .bebas {
   font-size: 36px;
   color: #fff;
+  margin-top: 3px;
 }
 
 .menu__btn {
@@ -538,7 +540,7 @@ img {
 }
 
 .menu__btn.menu__btn--active .burger {
-  transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg);
 }
 
 .menu__btn.menu__btn--active {
@@ -552,18 +554,18 @@ img {
 }
 
 .menu__btn.menu__btn--active::after {
-  transform: rotate(315deg) translate(8px, -8px);
+  transform: rotate(315deg);
 }
 
 .menu__btn.menu__btn--active::before {
-  transform: rotate(-225deg) translate(-8px, 8px);
+  transform: rotate(-225deg);
 }
 
 .menu {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: rgba(255, 0, 0, 0.315);
+  background-color: #443226;
   width: 100%;
   height: 100%;
   transform: translateX(-100%);
@@ -750,7 +752,7 @@ max-width: 100%;
 }
 
 .header__inner{
-  padding: clamp(30px, 10vw, 200px) 0px;
+      padding: clamp(70px, 9vw, 200px) 0px;
 }
 
 .header__inner h2{
@@ -974,6 +976,14 @@ max-width: 100%;
   gap: 40px;
 }
 .menu__footer-item{}
-.menu__footer-link{}
+.menu__footer-link{
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.menu__footer-item:hover .menu__footer-link{
+  color: #DABF92;
+  
+}
 
 /* Footer END */
