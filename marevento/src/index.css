@@ -688,9 +688,7 @@ max-width: 100%;
 }
 
 .swiper {
-  width: 100%;
-  min-height: 0px;
-  overflow-y: hidden;
+  width: 60%;
 }
 
 .swiper-slide{
@@ -704,12 +702,14 @@ max-width: 100%;
 
 .pagination{
   background-color: #31241B;
+  width: 50%;
 }
 
 .pagination__inner{
   margin-left: 50px;
   background-color: #443226;
   padding: 40px;
+  height: 100%;
 }
 
 .pagination__items{
@@ -909,3 +909,71 @@ max-width: 100%;
 }
 
 /* Contact component END */
+
+/* Social component */
+
+.social__component{
+  background-color: #31241B;
+  padding: clamp(30px, 8vw, 100px) 0px;
+}
+
+.social__component-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.social__component-inner::before,
+.social__component-inner::after{
+  content: '';
+  width: 60px;
+  height: 2px;
+  background-color: #DABF92;
+}
+
+.social__component-inner::before{
+  left: -40px;
+}
+
+.social__component-inner::after{
+  right: 0px;
+}
+
+.social__component-item{}
+
+/* Social component END */
+
+/* Footer */
+
+
+.footer {padding: clamp(30px, 8vw, 100px) 0px;}
+.black-bg{background-color: #0F0F0F;}
+.footer__inner{
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__item-content{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer__item-content--logo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sitename{}
+.footer__item-content--phone{}
+.footer__item-navigation{}
+.menu__footer{}
+.menu__footer-list{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.menu__footer-item{}
+.menu__footer-link{}
+
+/* Footer END */

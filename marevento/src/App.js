@@ -1,7 +1,12 @@
 import logo from "./img/logo-dark.svg";
+import logoFooter from "./img/logo-footer.svg";
 import slideImg from "./img/slide1.png";
 import ambassador1 from "./img/ambassador1.png";
 import event1 from "./img/event1.png";
+import facebook from "./img/icon-facebook.svg";
+import instagram from "./img/icon-instagram.svg";
+import youtube from "./img/icon-youtube.svg";
+import telegram from "./img/icon-telegram.svg";
 import "./App.css";
 import { useRef, useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -423,6 +428,78 @@ function App() {
             </div>
           </div>
         </section>
+        <section className="social__component light-bg">
+          <div className="container">
+            <div className="social__component-inner">
+              <div className="social__component-item">
+                <a href="#">
+                  <img src={facebook}></img>
+                </a>
+              </div>
+              <div className="social__component-item">
+                <a href="#">
+                  <img src={instagram}></img>
+                </a>
+              </div>
+              <div className="social__component-item">
+                <a href="#">
+                  <img src={youtube}></img>
+                </a>
+              </div>
+              <div className="social__component-item">
+                <a href="#">
+                  <img src={telegram}></img>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer className="footer black-bg">
+          <div className="container">
+            <div className="footer__inner">
+              <div className="footer__item-content">
+                <div className="footer__item-content--logo">
+                  <img src={logoFooter}></img>
+                  <h2 className="sitename">di Marevento</h2>
+                </div>
+                <p>
+                  City, Country<br></br>
+                  Some avenue <br></br>
+                  12 house
+                </p>
+                <div className="footer__item-content--phone">
+                  <a className="phone" link="tel:911">
+                    +3 80(93) 419-55-55
+                  </a>
+                  <a className="phone" link="tel:911">
+                    +3 80(93) 419-55-55
+                  </a>
+                </div>
+              </div>
+              <div className="footer__item-navigation">
+                <nav className="menu__footer">
+                  <ul className="menu__footer-list">
+                    <li className="menu__footer-item">
+                      <a className="menu__footer-link">Assets</a>
+                    </li>
+                    <li className="menu__footer-item">
+                      <a className="menu__footer-link">Ambassadors</a>
+                    </li>
+                    <li className="menu__footer-item">
+                      <a className="menu__footer-link">Events</a>
+                    </li>
+                    <li className="menu__footer-item">
+                      <a className="menu__footer-link">Heritage</a>
+                    </li>
+                    <li className="menu__footer-item">
+                      <a className="menu__footer-link">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );
