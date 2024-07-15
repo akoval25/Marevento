@@ -747,8 +747,17 @@ max-width: 100%;
   background-origin: initial;
   background-clip: initial;
   background-size: cover;
-  background-repeat:repeat;
+  background-repeat: no-repeat;
   background-position:100% 0;
+}
+
+@media (max-width: 768px){
+ .headline__bg.bg-1,
+.headline__bg.bg-2{
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center bottom;
+}
 }
 
 .header__inner{
@@ -818,7 +827,7 @@ max-width: 100%;
 
 .events__component{
   background-color: #222222;
-  padding: clamp(30px, 8vw, 100px) 0px;
+  padding: clamp(50px, 9vw, 100px) 0px;
 }
 
 .events__component h2{

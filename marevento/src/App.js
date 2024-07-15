@@ -43,31 +43,36 @@ function App() {
     "Slide6",
   ];
 
-  useEffect(() => {
-    const objWindow = window;
-    const elements = document.querySelectorAll(".headline__bg");
-    let ticking = false;
-
-    const onScroll = () => {
-      if (!ticking) {
-        window.requestAnimationFrame(() => {
-          elements.forEach((bgObj) => {
-            const yPos = -(objWindow.scrollY / bgObj.dataset.speed);
-            const coords = "100% " + yPos + "px";
-            bgObj.style.backgroundPosition = coords;
-          });
-          ticking = false;
-        });
-        ticking = true;
-      }
-    };
-
-    window.addEventListener("scroll", onScroll);
-
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-    };
-  }, []);
+  // useEffect(() => {
+  //   const objWindow = window;
+  //   const elements = document.querySelectorAll(".headline__bg");
+  //   let ticking = false;
+  
+  //   const onScroll = () => {
+  //     if (!ticking) {
+  //       window.requestAnimationFrame(() => {
+  //         elements.forEach((bgObj) => {
+  //           const yPos = -(objWindow.scrollY / bgObj.dataset.speed);
+  //           const coords = "100% " + yPos/3 + "px";
+  //           bgObj.style.backgroundPosition = coords;
+  //         });
+  //         ticking = false;
+  //       });
+  //       ticking = true;
+  //     }
+  //   };
+  
+  //   if (window.innerWidth >= 768) {
+  //     window.addEventListener("scroll", onScroll);
+  //   }
+  
+  //   return () => {
+  //     if (window.innerWidth >= 768) {
+  //       window.removeEventListener("scroll", onScroll);
+  //     }
+  //   };
+  // }, []);
+  
 
   return (
     <div className="App">
