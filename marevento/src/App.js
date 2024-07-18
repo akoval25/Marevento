@@ -1,6 +1,7 @@
 import logo from "./img/logo-dark.svg";
 import logoFooter from "./img/logo-footer.svg";
 import slideImg from "./img/slide1.png";
+import slideImg2 from "./img/slide2.jpg";
 import ambassador1 from "./img/ambassador1.png";
 import event1 from "./img/event1.png";
 import facebook from "./img/icon-facebook.svg";
@@ -163,46 +164,46 @@ function App() {
               onSwiper={(swiper) => (swiperRef.current = swiper)}
             >
               <SwiperSlide>
-                <div className="slide">
-                  <div className="slide-inner">
+                
+                  
                     <img src={slideImg} alt="Slide 1" />
-                  </div>
-                </div>
+                  
+                
               </SwiperSlide>
               <SwiperSlide>
-                <div className="slide">
-                  <div className="slide-inner">
-                    <img src={slideImg} alt="Slide 2" />
-                  </div>
-                </div>
+                
+                  
+                    <img src={slideImg2} alt="Slide 2" />
+                  
+                
               </SwiperSlide>
               <SwiperSlide>
-                <div className="slide">
-                  <div className="slide-inner">
+                
+                  
                     <img src={slideImg} alt="Slide 3" />
-                  </div>
-                </div>
+                  
+                
               </SwiperSlide>
               <SwiperSlide>
-                <div className="slide">
-                  <div className="slide-inner">
-                    <img src={slideImg} alt="Slide 4" />
-                  </div>
-                </div>
+                
+                  
+                    <img src={slideImg2} alt="Slide 4" />
+                  
+                
               </SwiperSlide>
               <SwiperSlide>
-                <div className="slide">
-                  <div className="slide-inner">
+                
+                  
                     <img src={slideImg} alt="Slide 5" />
-                  </div>
-                </div>
+                  
+                
               </SwiperSlide>
               <SwiperSlide>
-                <div className="slide">
-                  <div className="slide-inner">
-                    <img src={slideImg} alt="Slide 6" />
-                  </div>
-                </div>
+                
+                  
+                    <img src={slideImg2} alt="Slide 6" />
+                  
+                
               </SwiperSlide>
             </Swiper>
             <div className="pagination">
