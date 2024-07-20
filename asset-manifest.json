@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/Marevento/static/css/main.a01ecf58.css",
-    "main.js": "/Marevento/static/js/main.2ad46553.js",
+    "main.css": "/Marevento/static/css/main.15b38d71.css",
+    "main.js": "/Marevento/static/js/main.125bc716.js",
     "static/js/453.874d1084.chunk.js": "/Marevento/static/js/453.874d1084.chunk.js",
+    "static/media/headlineBg2.png": "/Marevento/static/media/headlineBg2.765b5f116a8112b79218.png",
+    "static/media/headlineBg.png": "/Marevento/static/media/headlineBg.5ab237cd4e6a4c5cb21b.png",
     "static/media/hero_bg.png": "/Marevento/static/media/hero_bg.81e021d0187981298aaf.png",
-    "static/media/logo-dark.svg": "/Marevento/static/media/logo-dark.05945d5bb0113f0f4adbbd9b329bae1b.svg",
+    "static/media/slide1.png": "/Marevento/static/media/slide1.7ed5ce107938b4234c0e.png",
+    "static/media/event1.png": "/Marevento/static/media/event1.540f95427785aec16357.png",
+    "static/media/logo-footer.svg": "/Marevento/static/media/logo-footer.ac99b81217ffcb6080d58f775a6259a1.svg",
+    "static/media/logo-dark.svg": "/Marevento/static/media/logo-dark.4e15b6d10c6f1c9b0045b681139aba33.svg",
+    "static/media/ambassador1.png": "/Marevento/static/media/ambassador1.704b3c7562d52edf2247.png",
+    "static/media/slide2.jpg": "/Marevento/static/media/slide2.069e511a31cc04d7f4f5.jpg",
+    "static/media/icon-instagram.svg": "/Marevento/static/media/icon-instagram.bf106f738888a8ecc380799dd41b3a16.svg",
+    "static/media/icon-telegram.svg": "/Marevento/static/media/icon-telegram.bcccf51b0adaf09bf45c9451ce237fad.svg",
+    "static/media/icon-youtube.svg": "/Marevento/static/media/icon-youtube.35c2c542a63bb8231c08df116091fb94.svg",
     "index.html": "/Marevento/index.html",
-    "main.a01ecf58.css.map": "/Marevento/static/css/main.a01ecf58.css.map",
-    "main.2ad46553.js.map": "/Marevento/static/js/main.2ad46553.js.map",
+    "static/media/icon-facebook.svg": "/Marevento/static/media/icon-facebook.beacf3e105458a1bd16a8244131fdb0a.svg",
+    "main.15b38d71.css.map": "/Marevento/static/css/main.15b38d71.css.map",
+    "main.125bc716.js.map": "/Marevento/static/js/main.125bc716.js.map",
     "453.874d1084.chunk.js.map": "/Marevento/static/js/453.874d1084.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a01ecf58.css",
-    "static/js/main.2ad46553.js"
+    "static/css/main.15b38d71.css",
+    "static/js/main.125bc716.js"
   ]
 }
