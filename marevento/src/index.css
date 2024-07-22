@@ -489,6 +489,7 @@ img {
   align-items: center;
   gap: 20px;
   max-width: min-content;
+  z-index: 2;
 }
 
 @media (max-width: 1440px) {
@@ -570,6 +571,7 @@ img {
   height: 100%;
   transform: translateX(-100%);
   transition: all 0.3s;
+  z-index: 2;
 }
 
 .menu.menu--active {
@@ -949,6 +951,16 @@ img {
 @media (max-width: 768px){
   .contact__component-inner {
     flex-direction: column;}
+    .contact__component-map{
+      max-width: 100%;
+    }
+    .contact__component-text{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
 }
 
 /* Contact component END */
