@@ -413,12 +413,13 @@ function App() {
                   Some avenue <br></br>
                   12 house
                 </p>
+                <div className="contact__component-text--links">
                 <a className="phone" link="tel:911">
                   +3 80(93) 419-55-55
                 </a>
                 <a className="phone" link="tel:911">
                   +3 80(93) 419-55-55
-                </a>
+                </a></div>
               </div>
               <div className="contact__component-map">
                 <iframe
@@ -482,7 +483,7 @@ function App() {
                   </a>
                 </div>
               </div>
-              <div className="footer__item-navigation">
+              {/* <div className="footer__item-navigation">
                 <nav className="menu__footer">
                   <ul className="menu__footer-list">
                     <li className="menu__footer-item">
@@ -502,7 +503,7 @@ function App() {
                     </li>
                   </ul>
                 </nav>
-              </div>
+              </div> */}
             </div>
           </div>
         </footer>
